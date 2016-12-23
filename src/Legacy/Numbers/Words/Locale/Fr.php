@@ -90,13 +90,23 @@ class Fr extends Words
     ];
 
     private static $currencyNames = [
+        'ALL' => [['lek', 'lekë'], ['qindarka']],
         'AUD' => [['dollar australien', 'dollars australiens'], ['cent']],
+        'BAM' => [['mark convertible', 'marks convertibles'], ['fening']],
+        'BGN' => [['lev', 'leva'], ['stotinki']],
+        'BYN' => [['rouble biélorusse', 'roubles biélorusses'], ['kapieïka']],
         'CAD' => [['dollar canadien', 'dollars canadiens'], ['cent']],
         'CHF' => [['franc suisse', 'francs suisses'], ['centime']],
         'CNY' => [['yuan'], ['fen']],
         'EUR' => [['euro'], ['centime']],
+        'HUF' => [['forint'], ['fillér', 'fillér']],
         'JPY' => [['yen', ['sen']]],
+        'MDL' => [['leu moldave', 'lei moldaves'], ['ban', 'bani']],
+        'MKD' => [['denar'], ['deni', 'deni']],
         'MXN' => [['peso mexicain', 'pesos mexicains'], ['centavo']],
+        'PLN' => [['złoty'], ['grosz', 'groszy']],
+        'RON' => [['leu', 'lei'], ['ban', 'bani']],
+        'RSD' => [['dinar serbe', 'dinars serbes'], ['para']],
         'USD' => [['dollar américain', 'dollars américains'], ['cent']],
     ];
 
